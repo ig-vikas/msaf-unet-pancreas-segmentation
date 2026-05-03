@@ -1,0 +1,9 @@
+# Core project libraries. Checked versions are recorded in results/environment_*.json.
+# Install a CUDA build of PyTorch for the GPU run.
+torch
+numpy
+nibabel
+matplotlib
+monai
+scipy
+psutil
