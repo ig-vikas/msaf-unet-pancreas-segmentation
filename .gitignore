@@ -1,0 +1,65 @@
+# Local project instructions
+/rules.md
+
+# Raw scans, prepared arrays, predictions, and trained weights
+/data/
+/Task07_Pancreas/
+/checkpoints/
+/weights/
+/results/.audit_progress.json
+/results/.remote-run.lock
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.tar.gz
+*.zip
+
+# Local Python environment and caches
+/.venv/
+/.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.log
+~$*
+.DS_Store
+._*
+Thumbs.db
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+*.jks
+local.properties
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+*.log
+
+# Project output
+/results/
+/splits/
+/REPORTS/
+/tmp/
+/plan.md
+/prompts.md
+*.docx
+*.pptx
