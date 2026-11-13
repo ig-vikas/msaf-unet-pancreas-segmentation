@@ -32,3 +32,7 @@ The [experiment guide](EXPERIMENT_GUIDE.md) covers dataset retrieval, GPU traini
 ## Tests and verification
 
 The environment check verifies imports, storage, and CUDA availability. Preflight checks the input pipeline, output shapes, gradients, and checkpoint reload for all four models. The GPU pilot checks learning and checkpoint resume before full training. CT volumes, generated reports, run outputs, and weights are supplied separately or recreated during those steps.
+
+## License
+
+The project code is available under the [MIT License](LICENSE).
